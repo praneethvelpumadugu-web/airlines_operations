@@ -15,8 +15,14 @@ The project uses three datasets:
 - `airlines.csv` – Airline codes and airline names
 - `airports.csv` – Airport codes, names, cities, states, countries, latitude, and longitude
 - `flights.csv` – Flight-level operational data including schedules, delays, cancellations, airports, and aircraft information
-
 The main flight dataset contains approximately 5.8 million flight records.
+## 💾 Dataset Access
+
+Due to GitHub's file size limits (>100MB), the raw `flights.csv` dataset is excluded from this repository via `.gitignore`. 
+
+- **Source:** 2015 Flight Delays and Cancellations Dataset
+- **Download Link:** [Kaggle 2015 Flight Delays & Cancellations](https://www.kaggle.com/datasets/usdot/flight-delays)
+- **Setup Instruction:** Download `flights.csv` from Kaggle and place it inside the `data/` directory to execute the scripts in `sql/airlines_cleaning.sql`.
 
 ## Tools & Technologies
 
